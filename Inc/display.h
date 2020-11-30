@@ -57,6 +57,7 @@ void setDigits(void);
 void resetSegments(void);
 void setSegments(void);
 void setDecimalPoint(void);
+void updateDisplay(void);
 
 void resetDigit(uint8_t);
 void setDigit(uint8_t);
