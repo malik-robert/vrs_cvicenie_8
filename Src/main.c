@@ -55,7 +55,7 @@ int main(void)
 
   MX_TIM3_Init();
 
-  uint8_t msg[] = "Robert_MALIK_92613_a_AndreJ_Suty_92636_";
+  uint8_t msg[] = "Robert_MALIK_92613_a_AndreJ_Suty_92636_"; // Len do 256 znakov.
   uint8_t len = length(msg);
 
   while (1) {
